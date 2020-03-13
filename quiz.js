@@ -697,7 +697,7 @@ next_game.addEventListener('click',event=>{
     quiz_game.removeChild(quiz_question);
     question_number++;
 
-    if (question_number > 1){
+    if (question_number > 9){
         next_game.style.display = 'none';
 
         let finish_game = document.createElement('h1');
