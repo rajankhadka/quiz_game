@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+
+}
+
+#start_game, #next_game,#button0, #button1,#button2,#button3,#finish_game{
+    background: none;
+    display: block;
+    margin-left: 50%;
+    margin-top: 20%;
+    position: absolute;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
+
+#start_game:hover, #next_game:hover,#button0:hover, #button1:hover,#button2:hover,#button3:hover{
+    background: #2ecc71;
+}
+
+a{
+    padding: 14px 40px;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-left: 49%;
+    margin-top: 24%;
+
+}
+
+
+
+
+a:hover{
+    background: #2ecc71;
+}
+
+#finish_game{
+    background-color: red;
+    margin-left: 40%;
+}
+
+#quiz_question{
+    font-size: medium;
+    display: block;
+    padding: 14px 40px;
+    position: absolute;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    border-radius: 24px;
+    outline: none;
+    margin-left: 40%;
+    margin-top: 15%;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+#finish_game{
+    margin-top: 20%;
+}
+
+
+#score_board{
+    display: block;
+    position: absolute;
+    text-align: center;
+    padding: 14px 40px;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+
+#button0, #button2{
+
+    margin-left: 40%;
+
+}
+
+#button1, #button3{
+
+    margin-left: 60%;
+
+}
+
+#button0, #button1{
+    margin-top: 25%;
+}
+
+#button2, #button3{
+    margin-top: 30%;
+}
+
+#restart_game{
+    margin-top: 0;
+    margin-left: 60%;
+}
+
+
+
+
